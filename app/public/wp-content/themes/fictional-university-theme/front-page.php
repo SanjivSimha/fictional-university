@@ -110,5 +110,3 @@
 <?php get_footer();
 
 ?>
-
-
