@@ -1,6 +1,8 @@
 <?php
 function university_post_types() {
     register_post_type('event', array(
+        'show_in_rest' => true, 
+        'supports' => array('title', 'editor', 'excerpt'),
         'has_archive' => true,
         'public' => true,
         'show_in_rest' => true,
