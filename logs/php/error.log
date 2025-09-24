@@ -1,0 +1,42 @@
+[10-Sep-2025 22:49:17 UTC] PHP Warning:  Undefined variable $homepageEvents in /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-program.php on line 53
+[10-Sep-2025 22:49:17 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on null in /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-program.php:53
+Stack trace:
+#0 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/sanjivsi...')
+#2 /Users/sanjivsimha/Local Sites/fictional-university/app/public/index.php(17): require('/Users/sanjivsi...')
+#3 {main}
+  thrown in /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-program.php on line 53
+[10-Sep-2025 22:50:04 UTC] PHP Warning:  Undefined variable $homepageEvents in /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-program.php on line 53
+[10-Sep-2025 22:50:04 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on null in /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-program.php:53
+Stack trace:
+#0 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/sanjivsi...')
+#2 /Users/sanjivsimha/Local Sites/fictional-university/app/public/index.php(17): require('/Users/sanjivsi...')
+#3 {main}
+  thrown in /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-program.php on line 53
+[10-Sep-2025 22:50:12 UTC] PHP Warning:  Undefined variable $homepageEvents in /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-program.php on line 53
+[10-Sep-2025 22:50:12 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on null in /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-program.php:53
+Stack trace:
+#0 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/sanjivsi...')
+#2 /Users/sanjivsimha/Local Sites/fictional-university/app/public/index.php(17): require('/Users/sanjivsi...')
+#3 {main}
+  thrown in /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-program.php on line 53
+[15-Sep-2025 18:30:58 UTC] PHP Warning:  Undefined array key "size" in /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-content/plugins/manual-image-crop/lib/ManualImageCropEditorWindow.php on line 79
+[15-Sep-2025 18:32:09 UTC] PHP Warning:  Undefined array key "size" in /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-content/plugins/manual-image-crop/lib/ManualImageCropEditorWindow.php on line 79
+[15-Sep-2025 18:33:19 UTC] PHP Warning:  Undefined array key "size" in /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-content/plugins/manual-image-crop/lib/ManualImageCropEditorWindow.php on line 79
+[15-Sep-2025 19:01:25 UTC] PHP Warning:  Undefined array key "size" in /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-content/plugins/manual-image-crop/lib/ManualImageCropEditorWindow.php on line 79
+[15-Sep-2025 19:21:21 UTC] PHP Warning:  Undefined array key "size" in /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-content/plugins/manual-image-crop/lib/ManualImageCropEditorWindow.php on line 79
+[15-Sep-2025 19:30:01 UTC] PHP Warning:  Undefined array key "title" in /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 4
+[15-Sep-2025 19:32:25 UTC] PHP Warning:  Undefined array key "title" in /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 4
+[15-Sep-2025 19:32:25 UTC] PHP Warning:  Undefined array key "subtitle" in /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 8
+[15-Sep-2025 19:37:34 UTC] PHP Warning:  Undefined array key "title" in /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 4
+[15-Sep-2025 19:37:34 UTC] PHP Warning:  Undefined array key "subtitle" in /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 8
+[15-Sep-2025 19:37:34 UTC] PHP Warning:  Undefined array key "photo" in /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 12
+[15-Sep-2025 19:37:41 UTC] PHP Warning:  Undefined array key "title" in /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 4
+[15-Sep-2025 19:37:41 UTC] PHP Warning:  Undefined array key "subtitle" in /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 8
+[15-Sep-2025 19:37:41 UTC] PHP Warning:  Undefined array key "photo" in /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 12
+[15-Sep-2025 19:37:42 UTC] PHP Warning:  Undefined array key "title" in /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 4
+[15-Sep-2025 19:37:42 UTC] PHP Warning:  Undefined array key "subtitle" in /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 8
+[15-Sep-2025 19:37:42 UTC] PHP Warning:  Undefined array key "photo" in /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 12
+[16-Sep-2025 18:20:56 UTC] Cron reschedule event error for hook: wp_update_plugins, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"twicedaily","args":[],"interval":43200}
