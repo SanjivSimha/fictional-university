@@ -40,3 +40,163 @@ Stack trace:
 [15-Sep-2025 19:37:42 UTC] PHP Warning:  Undefined array key "subtitle" in /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 8
 [15-Sep-2025 19:37:42 UTC] PHP Warning:  Undefined array key "photo" in /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 12
 [16-Sep-2025 18:20:56 UTC] Cron reschedule event error for hook: wp_update_plugins, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"twicedaily","args":[],"interval":43200}
+[03-Oct-2025 22:36:37 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "universityRegisterSearch" not found or invalid function name in /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/rest-api.php(628): do_action('rest_api_init', Object(WP_REST_Server))
+#3 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/rest-api.php(452): rest_get_server()
+#4 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#5 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#6 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#7 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#8 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/class-wp.php(818): WP->parse_request('')
+#9 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/functions.php(1342): WP->main('')
+#10 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-blog-header.php(16): wp()
+#11 /Users/sanjivsimha/Local Sites/fictional-university/app/public/index.php(17): require('/Users/sanjivsi...')
+#12 {main}
+  thrown in /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php on line 324
+[03-Oct-2025 22:36:37 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "universityRegisterSearch" not found or invalid function name in /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/rest-api.php(628): do_action('rest_api_init', Object(WP_REST_Server))
+#3 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/rest-api.php(452): rest_get_server()
+#4 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#5 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#6 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#7 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#8 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/class-wp.php(818): WP->parse_request('')
+#9 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/functions.php(1342): WP->main('')
+#10 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-blog-header.php(16): wp()
+#11 /Users/sanjivsimha/Local Sites/fictional-university/app/public/index.php(17): require('/Users/sanjivsi...')
+#12 {main}
+  thrown in /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php on line 324
+[03-Oct-2025 22:36:39 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "universityRegisterSearch" not found or invalid function name in /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/rest-api.php(628): do_action('rest_api_init', Object(WP_REST_Server))
+#3 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/rest-api.php(452): rest_get_server()
+#4 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#5 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#6 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#7 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#8 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/class-wp.php(818): WP->parse_request('')
+#9 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/functions.php(1342): WP->main('')
+#10 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-blog-header.php(16): wp()
+#11 /Users/sanjivsimha/Local Sites/fictional-university/app/public/index.php(17): require('/Users/sanjivsi...')
+#12 {main}
+  thrown in /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php on line 324
+[03-Oct-2025 22:36:39 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "universityRegisterSearch" not found or invalid function name in /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/rest-api.php(628): do_action('rest_api_init', Object(WP_REST_Server))
+#3 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/rest-api.php(452): rest_get_server()
+#4 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#5 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#6 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#7 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#8 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/class-wp.php(818): WP->parse_request('')
+#9 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/functions.php(1342): WP->main('')
+#10 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-blog-header.php(16): wp()
+#11 /Users/sanjivsimha/Local Sites/fictional-university/app/public/index.php(17): require('/Users/sanjivsi...')
+#12 {main}
+  thrown in /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php on line 324
+[03-Oct-2025 22:36:43 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "universityRegisterSearch" not found or invalid function name in /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/rest-api.php(628): do_action('rest_api_init', Object(WP_REST_Server))
+#3 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/rest-api.php(452): rest_get_server()
+#4 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#5 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#6 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#7 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#8 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/class-wp.php(818): WP->parse_request('')
+#9 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/functions.php(1342): WP->main('')
+#10 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-blog-header.php(16): wp()
+#11 /Users/sanjivsimha/Local Sites/fictional-university/app/public/index.php(17): require('/Users/sanjivsi...')
+#12 {main}
+  thrown in /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php on line 324
+[03-Oct-2025 22:36:43 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "universityRegisterSearch" not found or invalid function name in /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/rest-api.php(628): do_action('rest_api_init', Object(WP_REST_Server))
+#3 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/rest-api.php(452): rest_get_server()
+#4 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#5 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#6 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#7 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#8 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/class-wp.php(818): WP->parse_request('')
+#9 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/functions.php(1342): WP->main('')
+#10 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-blog-header.php(16): wp()
+#11 /Users/sanjivsimha/Local Sites/fictional-university/app/public/index.php(17): require('/Users/sanjivsi...')
+#12 {main}
+  thrown in /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php on line 324
+[03-Oct-2025 22:38:19 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "universityRegisterSearch" not found or invalid function name in /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/rest-api.php(628): do_action('rest_api_init', Object(WP_REST_Server))
+#3 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/rest-api.php(452): rest_get_server()
+#4 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#5 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#6 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#7 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#8 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/class-wp.php(818): WP->parse_request('')
+#9 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/functions.php(1342): WP->main('')
+#10 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-blog-header.php(16): wp()
+#11 /Users/sanjivsimha/Local Sites/fictional-university/app/public/index.php(17): require('/Users/sanjivsi...')
+#12 {main}
+  thrown in /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php on line 324
+[03-Oct-2025 22:38:19 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "universityRegisterSearch" not found or invalid function name in /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/rest-api.php(628): do_action('rest_api_init', Object(WP_REST_Server))
+#3 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/rest-api.php(452): rest_get_server()
+#4 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#5 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#6 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#7 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#8 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/class-wp.php(818): WP->parse_request('')
+#9 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/functions.php(1342): WP->main('')
+#10 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-blog-header.php(16): wp()
+#11 /Users/sanjivsimha/Local Sites/fictional-university/app/public/index.php(17): require('/Users/sanjivsi...')
+#12 {main}
+  thrown in /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php on line 324
+[03-Oct-2025 22:38:49 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "universityRegisterSearch" not found or invalid function name in /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/rest-api.php(628): do_action('rest_api_init', Object(WP_REST_Server))
+#3 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/rest-api.php(452): rest_get_server()
+#4 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#5 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#6 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#7 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#8 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/class-wp.php(818): WP->parse_request('')
+#9 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/functions.php(1342): WP->main('')
+#10 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-blog-header.php(16): wp()
+#11 /Users/sanjivsimha/Local Sites/fictional-university/app/public/index.php(17): require('/Users/sanjivsi...')
+#12 {main}
+  thrown in /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php on line 324
+[03-Oct-2025 22:38:49 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "universityRegisterSearch" not found or invalid function name in /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/rest-api.php(628): do_action('rest_api_init', Object(WP_REST_Server))
+#3 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/rest-api.php(452): rest_get_server()
+#4 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#5 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#6 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#7 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#8 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/class-wp.php(818): WP->parse_request('')
+#9 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/functions.php(1342): WP->main('')
+#10 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-blog-header.php(16): wp()
+#11 /Users/sanjivsimha/Local Sites/fictional-university/app/public/index.php(17): require('/Users/sanjivsi...')
+#12 {main}
+  thrown in /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php on line 324
