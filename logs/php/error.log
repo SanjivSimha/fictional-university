@@ -200,3 +200,27 @@ Stack trace:
 #11 /Users/sanjivsimha/Local Sites/fictional-university/app/public/index.php(17): require('/Users/sanjivsi...')
 #12 {main}
   thrown in /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php on line 324
+[28-Apr-2026 00:52:58 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "ourLoginCSS" not found or invalid function name in /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-login.php(120): do_action('login_enqueue_s...')
+#3 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-login.php(1490): login_header('Log In', '', Object(WP_Error))
+#4 {main}
+  thrown in /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php on line 324
+[28-Apr-2026 00:53:05 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "ourLoginCSS" not found or invalid function name in /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-login.php(120): do_action('login_enqueue_s...')
+#3 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-login.php(1490): login_header('Log In', '', Object(WP_Error))
+#4 {main}
+  thrown in /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php on line 324
+[28-Apr-2026 00:53:06 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "ourLoginCSS" not found or invalid function name in /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-login.php(120): do_action('login_enqueue_s...')
+#3 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-login.php(1490): login_header('Log In', '', Object(WP_Error))
+#4 {main}
+  thrown in /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php on line 324
