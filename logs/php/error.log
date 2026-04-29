@@ -224,3 +224,4 @@ Stack trace:
 #3 /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-login.php(1490): login_header('Log In', '', Object(WP_Error))
 #4 {main}
   thrown in /Users/sanjivsimha/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php on line 324
+[29-Apr-2026 22:28:11 UTC] Cron reschedule event error for hook: wp_scheduled_delete, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"daily","args":[],"interval":86400}
