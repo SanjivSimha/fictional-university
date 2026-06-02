@@ -100,20 +100,48 @@ wp.blocks.registerBlockType("ourplugin/are-you-paying-attention", {
   title: "Are You Paying Attention?",
   icon: "smiley",
   category: "common",
-  edit: function () {
+  attributes: {
+    skyColor: {
+      type: 'string'
+    },
+    grassColor: {
+      type: 'string'
+    }
+  },
+  edit: function (props) {
+    function updateSkyColor(event) {
+      props.setAttributes({
+        skyColor: event.target.value
+      });
+    }
+    function updateGrassColor(event) {
+      props.setAttributes({
+        grassColor: event.target.value
+      });
+    }
     return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
-        children: "Hello, this is a paragraph."
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("h4", {
-        children: "Hi there."
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("input", {
+        type: "text",
+        placeholder: "sky color",
+        value: props.attributes.skyColor,
+        onChange: updateSkyColor
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("input", {
+        type: "text",
+        placeholder: "grass color",
+        value: props.attributes.grassColor,
+        onChange: updateGrassColor
       })]
     });
   },
-  save: function () {
-    return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
-        children: "Hello there."
-      })
+  save: function (props) {
+    return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("p", {
+      children: ["Today the sky is ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
+        className: "skyColor",
+        children: props.attributes.skyColor
+      }), " and the grass is ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
+        className: "grassColor",
+        children: props.attributes.grassColor
+      }), "."]
     });
   }
 });
