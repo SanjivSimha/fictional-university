@@ -16,8 +16,10 @@ class AreYouPayingAttention {
     }
 
     function adminAssets() {
-        wp_register_script('ournewblocktype', plugin_dir_url(__FILE__) . 'build/index.js', array('wp-blocks', 'wp-element'));
+        wp_register_style('quizeditcss', plugin_dir_url(__FILE__) . 'build/index.css', array('wp-editor'));
+        wp_register_script('ournewblocktype', plugin_dir_url(__FILE__) . 'build/index.js', array('wp-blocks', 'wp-element', 'wp-editor'));
         register_block_type('ourplugin/are-you-paying-attention', array(
+            'editor_style' => 'quizeditcss',
             'editor_script' => 'ournewblocktype',
             'render_callback' => array($this, 'theHTML')
         ));
@@ -25,7 +27,7 @@ class AreYouPayingAttention {
 
     function theHTML($attributes) {
         ob_start(); ?>
-        <p>Today the sky is <span class="skyColor"><?php echo $attributes['skyColor']; ?></span> and the grass is <span class="grassColor"><?php echo $attributes['grassColor']; ?></span>.</p>
+        <p>Today the sky is <span class="skyColor"><?php echo esc_html($attributes['skyColor']); ?></span> and the grass is <span class="grassColor"><?php echo esc_html($attributes['grassColor']); ?></span>.</p>
         <?php
         return ob_get_clean();
     }
